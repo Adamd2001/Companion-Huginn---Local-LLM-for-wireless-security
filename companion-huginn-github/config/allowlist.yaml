@@ -1,0 +1,19 @@
+apps:
+  firefox:
+    cmd: ["firefox"]
+  vscode:
+    cmd: ["code"]
+  wireshark:
+    cmd: ["wireshark"]
+  terminal:
+    cmd: ["konsole"]
+
+commands:
+  check_ip:
+    cmd: ["bash", "-lc", "ip a"]
+  disk_usage:
+    cmd: ["bash", "-lc", "df -h"]
+  list_huginn_dir:
+    cmd: ["bash", "-lc", "ls -la \"$HUGINN_HOME\""]
+  list_captures:
+    cmd: ["bash", "-lc", "ls -lah \"$HUGINN_HOME/captures\""]

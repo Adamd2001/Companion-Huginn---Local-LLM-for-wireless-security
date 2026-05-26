@@ -1,0 +1,10 @@
+execution:
+  require_confirmation_env: false
+  confirmation_env_var: "HUGINN_CONFIRM"
+  confirmation_required_value: "approved"
+
+file_access:
+  allowed_roots:
+    - "/home/USER/Desktop/companion-huginn-github"
+    - "/home/USER/Desktop"
+  max_read_bytes: 20000

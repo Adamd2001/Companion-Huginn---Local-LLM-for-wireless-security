@@ -1,0 +1,8 @@
+pineapple:
+  host: "172.16.42.1"
+  user: "root"
+  remote_capture_dir: "/root/captures"
+  local_capture_dir: "/home/USER/Desktop/companion-huginn-github/captures"
+  interface: "wlan1mon"
+  identity_file: "/home/USER/Desktop/companion-huginn-github/keys/pineapple_ed25519"
+

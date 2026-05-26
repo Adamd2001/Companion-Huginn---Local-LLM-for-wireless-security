@@ -1,0 +1,14 @@
+ollama:
+  url: "http://127.0.0.1:11434/api/generate"
+  model_name: "huginn-final"
+  temperature: 0.45
+  top_p: 0.9
+  num_predict: 1024
+  timeout_sec: 180
+
+agent:
+  max_tool_rounds_per_user_turn: 4
+  classifier_temperature: 0.2
+  planner_temperature: 0.35
+  answer_temperature: 0.45
+  enforce_live_observation_gate: true

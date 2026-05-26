@@ -1,0 +1,1 @@
+# Companion Huginn core package
